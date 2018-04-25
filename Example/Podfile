@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ComAlertDialogTool_Example' do
+  pod 'ComAlertDialogTool', :path => '../'
+
+  target 'ComAlertDialogTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
