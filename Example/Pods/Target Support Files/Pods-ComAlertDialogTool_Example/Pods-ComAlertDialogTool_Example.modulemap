@@ -1,0 +1,6 @@
+framework module Pods_ComAlertDialogTool_Example {
+  umbrella header "Pods-ComAlertDialogTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - ComAlertDialogTool (0.0.1):
+    - ComTools (~> 0.0.3)
+  - ComTools (0.0.3)
+
+DEPENDENCIES:
+  - ComAlertDialogTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ComTools
+
+EXTERNAL SOURCES:
+  ComAlertDialogTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ComAlertDialogTool: 5c7a06de5063cf450ecac79d3631967e5b4d0a27
+  ComTools: df81ba8c89bea2ce2acca8b72e7795220b8b4102
+
+PODFILE CHECKSUM: 59500a51b8762053b77edef2e8847ca679af321e
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002C95CD986AC0938D19FF2B4B433207 /* NSString+TMNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A08D3331DC3AC203339081B2A180055 /* NSString+TMNSString.m */; };
+		0B889F2CE1B40F176E8F37172579A67F /* ComAlertViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F31E62F2B87956B63D8761109C916A0 /* ComAlertViewStyle.m */; };
+		18B3E96D7A382F1721D22B7C6661869A /* NSString+TMNSString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4E8D33C6137671985DC1BBB49120D0 /* NSString+TMNSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6F169DDD1C788EB6F19AB96572D9D8 /* Pods-ComAlertDialogTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA691E255CAF8ED1A8D7D2AC8F02F14A /* Pods-ComAlertDialogTool_Example-dummy.m */; };
+		26717E806C904F72C349D0000DE74E1F /* UIImage+TMUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B437FC83342B8F0CFAFA49EED6F4D7ED /* UIImage+TMUIImage.m */; };
+		42B79E298D5DF7E60595D68E7801A945 /* ComToastViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 89826A721645071AE4E1F4661318ABA2 /* ComToastViewStyle.m */; };
+		4491C790CA212546FF125F0BFA9F0568 /* ComLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FD7EE1B11390C35DC824E1A144E592 /* ComLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B96BE83430F82B147F103D31E475C6 /* ComAlertDialogTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61135392FEDAF8AC143C33EB812FADDC /* ComAlertDialogTool-dummy.m */; };
+		463A2FFAF9B3B3BB1E4677AE595EF144 /* ComToolText.h in Headers */ = {isa = PBXBuildFile; fileRef = 27385CA0D03559005DE175A713D8D144 /* ComToolText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B00B84A8A9E318DF662AAF1CD020459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8796EC124E6476C834300513E60704D /* Foundation.framework */; };
+		5076380E3F3BB6CF377832460B78A006 /* NSDate+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 903E0A671292F8AA580FFC6D3033794F /* NSDate+Ext.m */; };
+		51CEEEBA4E0288DF38C99E924E7C8F40 /* ComTools_Header.h in Headers */ = {isa = PBXBuildFile; fileRef = A38ADFA4C494277EBD8286F807FE977D /* ComTools_Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57C2608A306DDA2CB1BEDA2571699E77 /* ComAlertDialogTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2944655F969561E951E5A640C867D18D /* ComAlertDialogTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D65070D2585655869A66F5B2B9B769E /* ComTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E619AAAFED4FAF074BCFEA7C5DC7E3 /* ComTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E1A8BB1B9C0C7DD620B363123252CF /* UIView+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D720CD0D22CEBBBC856B885B102391C /* UIView+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D5C57B2910F773A974FBAAE4B4DD9A /* ComToolsMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB4B90D4706853825A854659E7156BF /* ComToolsMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69FEAB0194D94EB1D731770E7ED9BA4F /* ComTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 358DE7B80C443A2BE0E739E388C02020 /* ComTools.m */; };
+		6A9E8C7638DD6083A9B9778406743FA0 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1776D2DD66D2D06597BC530211C3F7 /* UIView+Ext.m */; };
+		6FE9DCF6DAC492E43482C541614EBF9A /* ComAlertDialogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 648020D0D5726468AAEC2D2E675199D6 /* ComAlertDialogTool.m */; };
+		7030AC8371039AFDF2F4802B67326103 /* ComToolsOther.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC2FD0FFEBADF86544E0370E831DE78 /* ComToolsOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75B9387CC6757178B282AF902CF6D5F1 /* ComToolText.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BBAAEE1AE772F440111FF29C304EA7 /* ComToolText.m */; };
+		7BA09FB1C780219BFC5FE7C92ECC90EF /* UIImage+TMUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C19D47E0F49CD8E5E44196CB58FB6A /* UIImage+TMUIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9691A83B649E46AA84C4D9047D7C30DF /* ComToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E43A5F17FCC7A473351ACA7E1FB728 /* ComToolView.m */; };
+		9BE802DB260ED0D872743C3C52EF6A51 /* ComTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A263C88DD9798BA0244FF6387B87F54C /* ComTools.framework */; };
+		9C4DCB311DABEA1B6BBD6B123F4D2E55 /* ComAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3693C00D34CFA60C961E09C52DDE13D /* ComAlertView.m */; };
+		A21C5D33FE541400FB3A2DDC7A4E07D9 /* ComLoadingViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F8010138DFD2DD57146615E47525D5C1 /* ComLoadingViewStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E85032E55F6F5222B7161930FA79E2 /* ComTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8051BE60D7E79463F5A4926975894EBF /* ComTools-dummy.m */; };
+		AB2BBCA0B05A58B18DE149899924137C /* ComToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BC87E6735FA9A8F740526B244B0E16 /* ComToolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC4C78DBDD37FF153504227CE1509E3 /* ComToolColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E67C0449B5CBCFFE7FAB15C13A612BA /* ComToolColor.m */; };
+		B031DCA60547A6B99886AB53B25802C8 /* ComToastViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0518E83686E650F00BC43FA2EAF9C4 /* ComToastViewStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0EC1D8CB2A10B9CD45C95EE001101CA /* ComToolsOther.m in Sources */ = {isa = PBXBuildFile; fileRef = A960CF4D9B057705044D7357FFE6561A /* ComToolsOther.m */; };
+		B10DCB2F4DF0DB549B082E808A282D01 /* ComAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 833F11193BD9C9051741F733E02D7584 /* ComAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5103ABD209963F900BD338D /* ComAlertDialogRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5103AB720995B6200BD338D /* ComAlertDialogRes.bundle */; };
+		B5103AC02099850E00BD338D /* NSBundle+AlertDialogExt.h in Headers */ = {isa = PBXBuildFile; fileRef = B5103ABE2099850E00BD338D /* NSBundle+AlertDialogExt.h */; };
+		B5103AC12099850E00BD338D /* NSBundle+AlertDialogExt.m in Sources */ = {isa = PBXBuildFile; fileRef = B5103ABF2099850E00BD338D /* NSBundle+AlertDialogExt.m */; };
+		B7B6A75E8D8218334FD8ECCF3A9EF8C7 /* NSDate+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 597F0B25CB585BD0647CD14C1675D1F1 /* NSDate+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7BCDA22D795176E247CB858018F11C2 /* ComLoadingViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7645EA23B05237CC0E51D480BC11F597 /* ComLoadingViewStyle.m */; };
+		BC80A1B28E26E2AE3CCD83EE64C926C2 /* ComAlertDialogTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4AB1673C5EE5BDAA1B1D5D8BE957FE /* ComAlertDialogTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE8BF4270401CBB0CD64031E07332F1 /* ComToolColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4A6824F3F61318B216EA831AD21115 /* ComToolColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF1E8D86622511A873681CED7C941646 /* ComToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69038E4434F8D380F43EB4D35706BCA /* ComToastView.m */; };
+		D2A015CB911AB0AE6C6D0D4177316E9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F364935FDF8025FDA030E8DA4006F3 /* UIKit.framework */; };
+		D3DA4FF6C9F7E7E1D9C57F1318C17419 /* ComTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D01EDEBBF4F21447C55BB200818133A0 /* ComTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D78DC91AE9085550590F5FBEDBE332BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8796EC124E6476C834300513E60704D /* Foundation.framework */; };
+		DC0979FEFA03DA8057920ADB2B71E41D /* ComAlertDialogTool_Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD59B27C9AC806C2E449046D53AFB80 /* ComAlertDialogTool_Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDC58DA4AA6F7666107F22C345658847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8796EC124E6476C834300513E60704D /* Foundation.framework */; };
+		E13BBEC9CB47DF93608E3D270333EFB6 /* ComAlertViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC9830B79794D7993FAA47CC8A79B93 /* ComAlertViewStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EACD318351F4911F416EAFA4BE1B4E15 /* ComLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7874B7045FE2FDBD039E070062EF3 /* ComLoadingView.m */; };
+		FE74FEF272CE12A9D6FD2A39FAAC6452 /* Pods-ComAlertDialogTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F237258C7F4309EB4AFB032D15FAC91 /* Pods-ComAlertDialogTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8F2B12EE8B36F3147838C7A03CAA9F /* ComToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E850F7EB67394FB7B964D87D445AD /* ComToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27BD4F3BA870451E3297894EAA60D14C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E193403F41D04930A7CA59548491CC32;
+			remoteInfo = ComAlertDialogTool;
+		};
+		43BC234F1D82134C495B3BB24D656804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B3F3A1A88EB914BDAAA1DB7D955476;
+			remoteInfo = ComTools;
+		};
+		AB8D5350B325397105F1CB513050EBA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B3F3A1A88EB914BDAAA1DB7D955476;
+			remoteInfo = ComTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031BE1C58B532F9388392E2807B4F8F8 /* ComTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		069FEEF63E27A3567098CE0CB3B9E3C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		06F364935FDF8025FDA030E8DA4006F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0959830D26A4579A1FD8B664229EE237 /* Pods-ComAlertDialogTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ComAlertDialogTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D720CD0D22CEBBBC856B885B102391C /* UIView+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Ext.h"; path = "ComTools/Classes/Category/UIView+Ext.h"; sourceTree = "<group>"; };
+		0E67C0449B5CBCFFE7FAB15C13A612BA /* ComToolColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolColor.m; path = ComTools/Classes/ComToolColor.m; sourceTree = "<group>"; };
+		17C9C2C1FD7B0FB725FB0346C8E11C72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1DECB44DE47C197E5EE388683A230A24 /* Pods-ComAlertDialogTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComAlertDialogTool_Example-resources.sh"; sourceTree = "<group>"; };
+		1EDD4623DAB798886DDB94E57E8CD493 /* ComAlertDialogTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ComAlertDialogTool.modulemap; sourceTree = "<group>"; };
+		2383CA69E113281B0B7EF1E7B39E5B8C /* ComTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ComTools.modulemap; sourceTree = "<group>"; };
+		27385CA0D03559005DE175A713D8D144 /* ComToolText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolText.h; path = ComTools/Classes/ComToolText.h; sourceTree = "<group>"; };
+		2944655F969561E951E5A640C867D18D /* ComAlertDialogTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComAlertDialogTool.h; path = ComAlertDialogTool/Classes/ComAlertDialogTool.h; sourceTree = "<group>"; };
+		2D8F160EE652118BA4EB6C2AC37FE5A1 /* ComAlertDialogTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComAlertDialogTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		358DE7B80C443A2BE0E739E388C02020 /* ComTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComTools.m; path = ComTools/Classes/ComTools.m; sourceTree = "<group>"; };
+		3ED78EF0B3EA3265C37E2C6E8FDE6EDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB4B90D4706853825A854659E7156BF /* ComToolsMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolsMacros.h; path = ComTools/Classes/ComToolsMacros.h; sourceTree = "<group>"; };
+		4C4AB1673C5EE5BDAA1B1D5D8BE957FE /* ComAlertDialogTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComAlertDialogTool-umbrella.h"; sourceTree = "<group>"; };
+		597F0B25CB585BD0647CD14C1675D1F1 /* NSDate+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Ext.h"; path = "ComTools/Classes/Category/NSDate+Ext.h"; sourceTree = "<group>"; };
+		5A08D3331DC3AC203339081B2A180055 /* NSString+TMNSString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TMNSString.m"; path = "ComTools/Classes/Category/NSString+TMNSString.m"; sourceTree = "<group>"; };
+		5CB6D1DD8026A123D3A93651B330F18D /* ComTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComTools.xcconfig; sourceTree = "<group>"; };
+		5CE57DE434FA18202236CFAFB2A4C838 /* Pods-ComAlertDialogTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComAlertDialogTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5D1776D2DD66D2D06597BC530211C3F7 /* UIView+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Ext.m"; path = "ComTools/Classes/Category/UIView+Ext.m"; sourceTree = "<group>"; };
+		5F237258C7F4309EB4AFB032D15FAC91 /* Pods-ComAlertDialogTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ComAlertDialogTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		5F31E62F2B87956B63D8761109C916A0 /* ComAlertViewStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComAlertViewStyle.m; path = ComAlertDialogTool/Classes/ComAlertViewStyle.m; sourceTree = "<group>"; };
+		61135392FEDAF8AC143C33EB812FADDC /* ComAlertDialogTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ComAlertDialogTool-dummy.m"; sourceTree = "<group>"; };
+		648020D0D5726468AAEC2D2E675199D6 /* ComAlertDialogTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComAlertDialogTool.m; path = ComAlertDialogTool/Classes/ComAlertDialogTool.m; sourceTree = "<group>"; };
+		7645EA23B05237CC0E51D480BC11F597 /* ComLoadingViewStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComLoadingViewStyle.m; path = ComAlertDialogTool/Classes/ComLoadingViewStyle.m; sourceTree = "<group>"; };
+		779FF0877F3C287CE883D33FD8C30A75 /* Pods-ComAlertDialogTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComAlertDialogTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		78E43A5F17FCC7A473351ACA7E1FB728 /* ComToolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolView.m; path = ComTools/Classes/ComToolView.m; sourceTree = "<group>"; };
+		8051BE60D7E79463F5A4926975894EBF /* ComTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ComTools-dummy.m"; sourceTree = "<group>"; };
+		833F11193BD9C9051741F733E02D7584 /* ComAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComAlertView.h; path = ComAlertDialogTool/Classes/ComAlertView.h; sourceTree = "<group>"; };
+		89826A721645071AE4E1F4661318ABA2 /* ComToastViewStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToastViewStyle.m; path = ComAlertDialogTool/Classes/ComToastViewStyle.m; sourceTree = "<group>"; };
+		8BD59B27C9AC806C2E449046D53AFB80 /* ComAlertDialogTool_Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComAlertDialogTool_Header.h; path = ComAlertDialogTool/Classes/ComAlertDialogTool_Header.h; sourceTree = "<group>"; };
+		903E0A671292F8AA580FFC6D3033794F /* NSDate+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Ext.m"; path = "ComTools/Classes/Category/NSDate+Ext.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E619AAAFED4FAF074BCFEA7C5DC7E3 /* ComTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComTools-umbrella.h"; sourceTree = "<group>"; };
+		9E4A6824F3F61318B216EA831AD21115 /* ComToolColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolColor.h; path = ComTools/Classes/ComToolColor.h; sourceTree = "<group>"; };
+		9E4E8D33C6137671985DC1BBB49120D0 /* NSString+TMNSString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TMNSString.h"; path = "ComTools/Classes/Category/NSString+TMNSString.h"; sourceTree = "<group>"; };
+		A263C88DD9798BA0244FF6387B87F54C /* ComTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3693C00D34CFA60C961E09C52DDE13D /* ComAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComAlertView.m; path = ComAlertDialogTool/Classes/ComAlertView.m; sourceTree = "<group>"; };
+		A38ADFA4C494277EBD8286F807FE977D /* ComTools_Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComTools_Header.h; path = ComTools/Classes/ComTools_Header.h; sourceTree = "<group>"; };
+		A69038E4434F8D380F43EB4D35706BCA /* ComToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToastView.m; path = ComAlertDialogTool/Classes/ComToastView.m; sourceTree = "<group>"; };
+		A960CF4D9B057705044D7357FFE6561A /* ComToolsOther.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolsOther.m; path = ComTools/Classes/ComToolsOther.m; sourceTree = "<group>"; };
+		AF0518E83686E650F00BC43FA2EAF9C4 /* ComToastViewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToastViewStyle.h; path = ComAlertDialogTool/Classes/ComToastViewStyle.h; sourceTree = "<group>"; };
+		B437FC83342B8F0CFAFA49EED6F4D7ED /* UIImage+TMUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TMUIImage.m"; path = "ComTools/Classes/Category/UIImage+TMUIImage.m"; sourceTree = "<group>"; };
+		B5103AB720995B6200BD338D /* ComAlertDialogRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ComAlertDialogRes.bundle; sourceTree = "<group>"; };
+		B5103ABE2099850E00BD338D /* NSBundle+AlertDialogExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+AlertDialogExt.h"; path = "ComAlertDialogTool/Classes/NSBundle+AlertDialogExt.h"; sourceTree = "<group>"; };
+		B5103ABF2099850E00BD338D /* NSBundle+AlertDialogExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AlertDialogExt.m"; path = "ComAlertDialogTool/Classes/NSBundle+AlertDialogExt.m"; sourceTree = "<group>"; };
+		B68D55B507229D06B3D7E0DEDB6FED7B /* Pods-ComAlertDialogTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComAlertDialogTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C24E850F7EB67394FB7B964D87D445AD /* ComToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToastView.h; path = ComAlertDialogTool/Classes/ComToastView.h; sourceTree = "<group>"; };
+		C4C7874B7045FE2FDBD039E070062EF3 /* ComLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComLoadingView.m; path = ComAlertDialogTool/Classes/ComLoadingView.m; sourceTree = "<group>"; };
+		C66AA6F01A5B341BAC9FF0106163CB8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC9830B79794D7993FAA47CC8A79B93 /* ComAlertViewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComAlertViewStyle.h; path = ComAlertDialogTool/Classes/ComAlertViewStyle.h; sourceTree = "<group>"; };
+		CCE1CE3297C8D7559BE544CE5DAF2A90 /* ComAlertDialogTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComAlertDialogTool.xcconfig; sourceTree = "<group>"; };
+		CDD77EDBBF5446A3D4C5081AE782CF18 /* Pods-ComAlertDialogTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComAlertDialogTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D01EDEBBF4F21447C55BB200818133A0 /* ComTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComTools.h; path = ComTools/Classes/ComTools.h; sourceTree = "<group>"; };
+		D35E59378B26A1FFA1B8148082BBF6D5 /* ComAlertDialogTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComAlertDialogTool-prefix.pch"; sourceTree = "<group>"; };
+		D46E6E06342BCC477DC1C0A28808A1B6 /* ComTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComTools-prefix.pch"; sourceTree = "<group>"; };
+		D4C19D47E0F49CD8E5E44196CB58FB6A /* UIImage+TMUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TMUIImage.h"; path = "ComTools/Classes/Category/UIImage+TMUIImage.h"; sourceTree = "<group>"; };
+		D5FD7EE1B11390C35DC824E1A144E592 /* ComLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComLoadingView.h; path = ComAlertDialogTool/Classes/ComLoadingView.h; sourceTree = "<group>"; };
+		DEC2FD0FFEBADF86544E0370E831DE78 /* ComToolsOther.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolsOther.h; path = ComTools/Classes/ComToolsOther.h; sourceTree = "<group>"; };
+		E1BBAAEE1AE772F440111FF29C304EA7 /* ComToolText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolText.m; path = ComTools/Classes/ComToolText.m; sourceTree = "<group>"; };
+		E48B59B795AED43B51C12113B7249BD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8796EC124E6476C834300513E60704D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EA691E255CAF8ED1A8D7D2AC8F02F14A /* Pods-ComAlertDialogTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComAlertDialogTool_Example-dummy.m"; sourceTree = "<group>"; };
+		EA6AC48E29483971A3476BAD1253D4C1 /* Pods-ComAlertDialogTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ComAlertDialogTool_Example.modulemap"; sourceTree = "<group>"; };
+		F07BDF95BEAD5277B7D3D18E77496F92 /* ComAlertDialogTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ComAlertDialogTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F1B0DDD02FB6A03FD1A5A164BFDAAA5D /* Pods_ComAlertDialogTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComAlertDialogTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8010138DFD2DD57146615E47525D5C1 /* ComLoadingViewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComLoadingViewStyle.h; path = ComAlertDialogTool/Classes/ComLoadingViewStyle.h; sourceTree = "<group>"; };
+		F8BC87E6735FA9A8F740526B244B0E16 /* ComToolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolView.h; path = ComTools/Classes/ComToolView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366B745252814EF5CFAD1ECB31DECDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B00B84A8A9E318DF662AAF1CD020459 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAC66371BB5F98DB7BE66E0D6486EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC58DA4AA6F7666107F22C345658847 /* Foundation.framework in Frameworks */,
+				D2A015CB911AB0AE6C6D0D4177316E9C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8AE82DAF203177D8DB7C4F3702C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE802DB260ED0D872743C3C52EF6A51 /* ComTools.framework in Frameworks */,
+				D78DC91AE9085550590F5FBEDBE332BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10ADA2139CA75156118D272CD77E19C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A263C88DD9798BA0244FF6387B87F54C /* ComTools.framework */,
+				8F9018D6EAFF696C78DAB0B9F8BBF3CD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3265328EFA1CB24039D8F98E00449936 /* ComTools */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A6824F3F61318B216EA831AD21115 /* ComToolColor.h */,
+				0E67C0449B5CBCFFE7FAB15C13A612BA /* ComToolColor.m */,
+				D01EDEBBF4F21447C55BB200818133A0 /* ComTools.h */,
+				358DE7B80C443A2BE0E739E388C02020 /* ComTools.m */,
+				A38ADFA4C494277EBD8286F807FE977D /* ComTools_Header.h */,
+				4BB4B90D4706853825A854659E7156BF /* ComToolsMacros.h */,
+				DEC2FD0FFEBADF86544E0370E831DE78 /* ComToolsOther.h */,
+				A960CF4D9B057705044D7357FFE6561A /* ComToolsOther.m */,
+				27385CA0D03559005DE175A713D8D144 /* ComToolText.h */,
+				E1BBAAEE1AE772F440111FF29C304EA7 /* ComToolText.m */,
+				F8BC87E6735FA9A8F740526B244B0E16 /* ComToolView.h */,
+				78E43A5F17FCC7A473351ACA7E1FB728 /* ComToolView.m */,
+				597F0B25CB585BD0647CD14C1675D1F1 /* NSDate+Ext.h */,
+				903E0A671292F8AA580FFC6D3033794F /* NSDate+Ext.m */,
+				9E4E8D33C6137671985DC1BBB49120D0 /* NSString+TMNSString.h */,
+				5A08D3331DC3AC203339081B2A180055 /* NSString+TMNSString.m */,
+				D4C19D47E0F49CD8E5E44196CB58FB6A /* UIImage+TMUIImage.h */,
+				B437FC83342B8F0CFAFA49EED6F4D7ED /* UIImage+TMUIImage.m */,
+				0D720CD0D22CEBBBC856B885B102391C /* UIView+Ext.h */,
+				5D1776D2DD66D2D06597BC530211C3F7 /* UIView+Ext.m */,
+				F1CE2988A492B2E9E41141844FB115F0 /* Support Files */,
+			);
+			path = ComTools;
+			sourceTree = "<group>";
+		};
+		3CC77E6550E1CE4BF1FD2C5CA3112D48 /* ComAlertDialogTool */ = {
+			isa = PBXGroup;
+			children = (
+				8BD59B27C9AC806C2E449046D53AFB80 /* ComAlertDialogTool_Header.h */,
+				2944655F969561E951E5A640C867D18D /* ComAlertDialogTool.h */,
+				648020D0D5726468AAEC2D2E675199D6 /* ComAlertDialogTool.m */,
+				833F11193BD9C9051741F733E02D7584 /* ComAlertView.h */,
+				A3693C00D34CFA60C961E09C52DDE13D /* ComAlertView.m */,
+				CCC9830B79794D7993FAA47CC8A79B93 /* ComAlertViewStyle.h */,
+				5F31E62F2B87956B63D8761109C916A0 /* ComAlertViewStyle.m */,
+				D5FD7EE1B11390C35DC824E1A144E592 /* ComLoadingView.h */,
+				C4C7874B7045FE2FDBD039E070062EF3 /* ComLoadingView.m */,
+				F8010138DFD2DD57146615E47525D5C1 /* ComLoadingViewStyle.h */,
+				7645EA23B05237CC0E51D480BC11F597 /* ComLoadingViewStyle.m */,
+				C24E850F7EB67394FB7B964D87D445AD /* ComToastView.h */,
+				A69038E4434F8D380F43EB4D35706BCA /* ComToastView.m */,
+				AF0518E83686E650F00BC43FA2EAF9C4 /* ComToastViewStyle.h */,
+				89826A721645071AE4E1F4661318ABA2 /* ComToastViewStyle.m */,
+				B5103ABE2099850E00BD338D /* NSBundle+AlertDialogExt.h */,
+				B5103ABF2099850E00BD338D /* NSBundle+AlertDialogExt.m */,
+				B5103AB620995B3C00BD338D /* Resources */,
+				B9CD68CD337ED6AF59B5A0A3DE6FBBEC /* Pod */,
+				AB6D9B6137FC2A54BF44C59F57A9231E /* Support Files */,
+			);
+			name = ComAlertDialogTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		40828B5A854ED77B74C481A4097566F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3F1F537CDCD0C7F13B7CF5AA8AFF7A1 /* Pods-ComAlertDialogTool_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74011FCE7995873F5FDDFD4398EE0BCF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CC77E6550E1CE4BF1FD2C5CA3112D48 /* ComAlertDialogTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				74011FCE7995873F5FDDFD4398EE0BCF /* Development Pods */,
+				10ADA2139CA75156118D272CD77E19C9 /* Frameworks */,
+				985ED8D65FA758CDE8AE17E72AA5713B /* Pods */,
+				D07C1A741037044CC61F06C26F100E6E /* Products */,
+				40828B5A854ED77B74C481A4097566F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9018D6EAFF696C78DAB0B9F8BBF3CD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E8796EC124E6476C834300513E60704D /* Foundation.framework */,
+				06F364935FDF8025FDA030E8DA4006F3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		985ED8D65FA758CDE8AE17E72AA5713B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3265328EFA1CB24039D8F98E00449936 /* ComTools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB6D9B6137FC2A54BF44C59F57A9231E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EDD4623DAB798886DDB94E57E8CD493 /* ComAlertDialogTool.modulemap */,
+				CCE1CE3297C8D7559BE544CE5DAF2A90 /* ComAlertDialogTool.xcconfig */,
+				61135392FEDAF8AC143C33EB812FADDC /* ComAlertDialogTool-dummy.m */,
+				D35E59378B26A1FFA1B8148082BBF6D5 /* ComAlertDialogTool-prefix.pch */,
+				4C4AB1673C5EE5BDAA1B1D5D8BE957FE /* ComAlertDialogTool-umbrella.h */,
+				E48B59B795AED43B51C12113B7249BD3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ComAlertDialogTool";
+			sourceTree = "<group>";
+		};
+		B5103AB620995B3C00BD338D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5103AB720995B6200BD338D /* ComAlertDialogRes.bundle */,
+			);
+			name = Resources;
+			path = ComAlertDialogTool/Classes/Resources;
+			sourceTree = "<group>";
+		};
+		B9CD68CD337ED6AF59B5A0A3DE6FBBEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F07BDF95BEAD5277B7D3D18E77496F92 /* ComAlertDialogTool.podspec */,
+				069FEEF63E27A3567098CE0CB3B9E3C3 /* LICENSE */,
+				17C9C2C1FD7B0FB725FB0346C8E11C72 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D07C1A741037044CC61F06C26F100E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D8F160EE652118BA4EB6C2AC37FE5A1 /* ComAlertDialogTool.framework */,
+				031BE1C58B532F9388392E2807B4F8F8 /* ComTools.framework */,
+				F1B0DDD02FB6A03FD1A5A164BFDAAA5D /* Pods_ComAlertDialogTool_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F1F537CDCD0C7F13B7CF5AA8AFF7A1 /* Pods-ComAlertDialogTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C66AA6F01A5B341BAC9FF0106163CB8C /* Info.plist */,
+				EA6AC48E29483971A3476BAD1253D4C1 /* Pods-ComAlertDialogTool_Example.modulemap */,
+				0959830D26A4579A1FD8B664229EE237 /* Pods-ComAlertDialogTool_Example-acknowledgements.markdown */,
+				CDD77EDBBF5446A3D4C5081AE782CF18 /* Pods-ComAlertDialogTool_Example-acknowledgements.plist */,
+				EA691E255CAF8ED1A8D7D2AC8F02F14A /* Pods-ComAlertDialogTool_Example-dummy.m */,
+				779FF0877F3C287CE883D33FD8C30A75 /* Pods-ComAlertDialogTool_Example-frameworks.sh */,
+				1DECB44DE47C197E5EE388683A230A24 /* Pods-ComAlertDialogTool_Example-resources.sh */,
+				5F237258C7F4309EB4AFB032D15FAC91 /* Pods-ComAlertDialogTool_Example-umbrella.h */,
+				5CE57DE434FA18202236CFAFB2A4C838 /* Pods-ComAlertDialogTool_Example.debug.xcconfig */,
+				B68D55B507229D06B3D7E0DEDB6FED7B /* Pods-ComAlertDialogTool_Example.release.xcconfig */,
+			);
+			name = "Pods-ComAlertDialogTool_Example";
+			path = "Target Support Files/Pods-ComAlertDialogTool_Example";
+			sourceTree = "<group>";
+		};
+		F1CE2988A492B2E9E41141844FB115F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2383CA69E113281B0B7EF1E7B39E5B8C /* ComTools.modulemap */,
+				5CB6D1DD8026A123D3A93651B330F18D /* ComTools.xcconfig */,
+				8051BE60D7E79463F5A4926975894EBF /* ComTools-dummy.m */,
+				D46E6E06342BCC477DC1C0A28808A1B6 /* ComTools-prefix.pch */,
+				93E619AAAFED4FAF074BCFEA7C5DC7E3 /* ComTools-umbrella.h */,
+				3ED78EF0B3EA3265C37E2C6E8FDE6EDC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ComTools";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BC6BBDCF7380F7AB24A2B3B0AB7F1DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8BF4270401CBB0CD64031E07332F1 /* ComToolColor.h in Headers */,
+				5D65070D2585655869A66F5B2B9B769E /* ComTools-umbrella.h in Headers */,
+				D3DA4FF6C9F7E7E1D9C57F1318C17419 /* ComTools.h in Headers */,
+				51CEEEBA4E0288DF38C99E924E7C8F40 /* ComTools_Header.h in Headers */,
+				67D5C57B2910F773A974FBAAE4B4DD9A /* ComToolsMacros.h in Headers */,
+				7030AC8371039AFDF2F4802B67326103 /* ComToolsOther.h in Headers */,
+				463A2FFAF9B3B3BB1E4677AE595EF144 /* ComToolText.h in Headers */,
+				AB2BBCA0B05A58B18DE149899924137C /* ComToolView.h in Headers */,
+				B7B6A75E8D8218334FD8ECCF3A9EF8C7 /* NSDate+Ext.h in Headers */,
+				18B3E96D7A382F1721D22B7C6661869A /* NSString+TMNSString.h in Headers */,
+				7BA09FB1C780219BFC5FE7C92ECC90EF /* UIImage+TMUIImage.h in Headers */,
+				65E1A8BB1B9C0C7DD620B363123252CF /* UIView+Ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257F2B07032DC9935EA95582897C5DF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5103AC02099850E00BD338D /* NSBundle+AlertDialogExt.h in Headers */,
+				BC80A1B28E26E2AE3CCD83EE64C926C2 /* ComAlertDialogTool-umbrella.h in Headers */,
+				57C2608A306DDA2CB1BEDA2571699E77 /* ComAlertDialogTool.h in Headers */,
+				DC0979FEFA03DA8057920ADB2B71E41D /* ComAlertDialogTool_Header.h in Headers */,
+				B10DCB2F4DF0DB549B082E808A282D01 /* ComAlertView.h in Headers */,
+				E13BBEC9CB47DF93608E3D270333EFB6 /* ComAlertViewStyle.h in Headers */,
+				4491C790CA212546FF125F0BFA9F0568 /* ComLoadingView.h in Headers */,
+				A21C5D33FE541400FB3A2DDC7A4E07D9 /* ComLoadingViewStyle.h in Headers */,
+				FF8F2B12EE8B36F3147838C7A03CAA9F /* ComToastView.h in Headers */,
+				B031DCA60547A6B99886AB53B25802C8 /* ComToastViewStyle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC67A63444C22FA76318E63370F517FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE74FEF272CE12A9D6FD2A39FAAC6452 /* Pods-ComAlertDialogTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9E2101BA989DCB849C62B4ACC85C050A /* Pods-ComAlertDialogTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD3051916E962D6E26EBA2A63ABC45A /* Build configuration list for PBXNativeTarget "Pods-ComAlertDialogTool_Example" */;
+			buildPhases = (
+				8F49F57F5799E46F09BC67E01ED47604 /* Sources */,
+				366B745252814EF5CFAD1ECB31DECDF0 /* Frameworks */,
+				BC67A63444C22FA76318E63370F517FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0283C77A2246062C339BFFB006E0A2 /* PBXTargetDependency */,
+				2AA42B26537926E0A3B86267D92B68D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ComAlertDialogTool_Example";
+			productName = "Pods-ComAlertDialogTool_Example";
+			productReference = F1B0DDD02FB6A03FD1A5A164BFDAAA5D /* Pods_ComAlertDialogTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3B3F3A1A88EB914BDAAA1DB7D955476 /* ComTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BB9B62E227FC46029E4E7A43416852 /* Build configuration list for PBXNativeTarget "ComTools" */;
+			buildPhases = (
+				982F8C03FB5E78A43DED215AA71AF0B8 /* Sources */,
+				4DAC66371BB5F98DB7BE66E0D6486EC7 /* Frameworks */,
+				0BC6BBDCF7380F7AB24A2B3B0AB7F1DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComTools;
+			productName = ComTools;
+			productReference = 031BE1C58B532F9388392E2807B4F8F8 /* ComTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E193403F41D04930A7CA59548491CC32 /* ComAlertDialogTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA93BF4333A7C77AE9459C4B5AE65E0 /* Build configuration list for PBXNativeTarget "ComAlertDialogTool" */;
+			buildPhases = (
+				21FA24A32A5998E75B00E2992AF7F1B1 /* Sources */,
+				D9E8AE82DAF203177D8DB7C4F3702C70 /* Frameworks */,
+				257F2B07032DC9935EA95582897C5DF3 /* Headers */,
+				B5103ABC209963C700BD338D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36723F8CE739BFE22D571A3DACB1658B /* PBXTargetDependency */,
+			);
+			name = ComAlertDialogTool;
+			productName = ComAlertDialogTool;
+			productReference = 2D8F160EE652118BA4EB6C2AC37FE5A1 /* ComAlertDialogTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D07C1A741037044CC61F06C26F100E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E193403F41D04930A7CA59548491CC32 /* ComAlertDialogTool */,
+				C3B3F3A1A88EB914BDAAA1DB7D955476 /* ComTools */,
+				9E2101BA989DCB849C62B4ACC85C050A /* Pods-ComAlertDialogTool_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5103ABC209963C700BD338D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5103ABD209963F900BD338D /* ComAlertDialogRes.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21FA24A32A5998E75B00E2992AF7F1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B96BE83430F82B147F103D31E475C6 /* ComAlertDialogTool-dummy.m in Sources */,
+				6FE9DCF6DAC492E43482C541614EBF9A /* ComAlertDialogTool.m in Sources */,
+				9C4DCB311DABEA1B6BBD6B123F4D2E55 /* ComAlertView.m in Sources */,
+				0B889F2CE1B40F176E8F37172579A67F /* ComAlertViewStyle.m in Sources */,
+				EACD318351F4911F416EAFA4BE1B4E15 /* ComLoadingView.m in Sources */,
+				B7BCDA22D795176E247CB858018F11C2 /* ComLoadingViewStyle.m in Sources */,
+				CF1E8D86622511A873681CED7C941646 /* ComToastView.m in Sources */,
+				B5103AC12099850E00BD338D /* NSBundle+AlertDialogExt.m in Sources */,
+				42B79E298D5DF7E60595D68E7801A945 /* ComToastViewStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F49F57F5799E46F09BC67E01ED47604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6F169DDD1C788EB6F19AB96572D9D8 /* Pods-ComAlertDialogTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982F8C03FB5E78A43DED215AA71AF0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4C78DBDD37FF153504227CE1509E3 /* ComToolColor.m in Sources */,
+				A9E85032E55F6F5222B7161930FA79E2 /* ComTools-dummy.m in Sources */,
+				69FEAB0194D94EB1D731770E7ED9BA4F /* ComTools.m in Sources */,
+				B0EC1D8CB2A10B9CD45C95EE001101CA /* ComToolsOther.m in Sources */,
+				75B9387CC6757178B282AF902CF6D5F1 /* ComToolText.m in Sources */,
+				9691A83B649E46AA84C4D9047D7C30DF /* ComToolView.m in Sources */,
+				5076380E3F3BB6CF377832460B78A006 /* NSDate+Ext.m in Sources */,
+				002C95CD986AC0938D19FF2B4B433207 /* NSString+TMNSString.m in Sources */,
+				26717E806C904F72C349D0000DE74E1F /* UIImage+TMUIImage.m in Sources */,
+				6A9E8C7638DD6083A9B9778406743FA0 /* UIView+Ext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0283C77A2246062C339BFFB006E0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ComAlertDialogTool;
+			target = E193403F41D04930A7CA59548491CC32 /* ComAlertDialogTool */;
+			targetProxy = 27BD4F3BA870451E3297894EAA60D14C /* PBXContainerItemProxy */;
+		};
+		2AA42B26537926E0A3B86267D92B68D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ComTools;
+			target = C3B3F3A1A88EB914BDAAA1DB7D955476 /* ComTools */;
+			targetProxy = 43BC234F1D82134C495B3BB24D656804 /* PBXContainerItemProxy */;
+		};
+		36723F8CE739BFE22D571A3DACB1658B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ComTools;
+			target = C3B3F3A1A88EB914BDAAA1DB7D955476 /* ComTools */;
+			targetProxy = AB8D5350B325397105F1CB513050EBA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2684F7E37E88DB906F7E48D129B2EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE1CE3297C8D7559BE544CE5DAF2A90 /* ComAlertDialogTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ComAlertDialogTool/ComAlertDialogTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ComAlertDialogTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ComAlertDialogTool/ComAlertDialogTool.modulemap";
+				PRODUCT_MODULE_NAME = ComAlertDialogTool;
+				PRODUCT_NAME = ComAlertDialogTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		598E36A2FE2676ED755FDB8CF3EB5A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB6D1DD8026A123D3A93651B330F18D /* ComTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ComTools/ComTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ComTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ComTools/ComTools.modulemap";
+				PRODUCT_MODULE_NAME = ComTools;
+				PRODUCT_NAME = ComTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E02DE7AA8FE74F0E66D6273DCA1BB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68D55B507229D06B3D7E0DEDB6FED7B /* Pods-ComAlertDialogTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComAlertDialogTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComAlertDialogTool_Example/Pods-ComAlertDialogTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B9B400437799F9D22BBABF0A87129F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB6D1DD8026A123D3A93651B330F18D /* ComTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ComTools/ComTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ComTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ComTools/ComTools.modulemap";
+				PRODUCT_MODULE_NAME = ComTools;
+				PRODUCT_NAME = ComTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6D97609A6158909B316799E72E4C3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE57DE434FA18202236CFAFB2A4C838 /* Pods-ComAlertDialogTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComAlertDialogTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComAlertDialogTool_Example/Pods-ComAlertDialogTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAE64BE793D8E111D3E88956E1A761FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE1CE3297C8D7559BE544CE5DAF2A90 /* ComAlertDialogTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ComAlertDialogTool/ComAlertDialogTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ComAlertDialogTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ComAlertDialogTool/ComAlertDialogTool.modulemap";
+				PRODUCT_MODULE_NAME = ComAlertDialogTool;
+				PRODUCT_NAME = ComAlertDialogTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA93BF4333A7C77AE9459C4B5AE65E0 /* Build configuration list for PBXNativeTarget "ComAlertDialogTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE64BE793D8E111D3E88956E1A761FC /* Debug */,
+				2684F7E37E88DB906F7E48D129B2EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD3051916E962D6E26EBA2A63ABC45A /* Build configuration list for PBXNativeTarget "Pods-ComAlertDialogTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D97609A6158909B316799E72E4C3AB /* Debug */,
+				7E02DE7AA8FE74F0E66D6273DCA1BB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BB9B62E227FC46029E4E7A43416852 /* Build configuration list for PBXNativeTarget "ComTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598E36A2FE2676ED755FDB8CF3EB5A8F /* Debug */,
+				B9B400437799F9D22BBABF0A87129F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

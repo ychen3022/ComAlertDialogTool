@@ -1,0 +1,6 @@
+framework module ComAlertDialogTool {
+  umbrella header "ComAlertDialogTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

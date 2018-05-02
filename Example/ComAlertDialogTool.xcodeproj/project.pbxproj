@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		93E104B6241F30235809504C /* Pods_ComAlertDialogTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCFF82FFD5EA7A9911C75A8 /* Pods_ComAlertDialogTool_Tests.framework */; };
 		F5E29A8E87FD06ECFD332E14 /* Pods_ComAlertDialogTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AB85BA7FA8C248E9186AFC /* Pods_ComAlertDialogTool_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,15 +57,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7CA24C7C73DE4AD0E4D6A982 /* Pods-ComAlertDialogTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComAlertDialogTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComAlertDialogTool_Tests/Pods-ComAlertDialogTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		84CAB279393E1E918529CC1E /* Pods-ComAlertDialogTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComAlertDialogTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComAlertDialogTool_Example/Pods-ComAlertDialogTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		857ECC9415AA632F45FB3CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		857ECC9415AA632F45FB3CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5AB85BA7FA8C248E9186AFC /* Pods_ComAlertDialogTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComAlertDialogTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE1195E76A8BE6E721949679 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BFFFB7C960847FEA61BA97A4 /* ComAlertDialogTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ComAlertDialogTool.podspec; path = ../ComAlertDialogTool.podspec; sourceTree = "<group>"; };
+		BE1195E76A8BE6E721949679 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BFFFB7C960847FEA61BA97A4 /* ComAlertDialogTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ComAlertDialogTool.podspec; path = ../ComAlertDialogTool.podspec; sourceTree = "<group>"; };
 		ECCFF82FFD5EA7A9911C75A8 /* Pods_ComAlertDialogTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComAlertDialogTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F42D023A930E5451807C5E67 /* Pods-ComAlertDialogTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComAlertDialogTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComAlertDialogTool_Tests/Pods-ComAlertDialogTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				93E104B6241F30235809504C /* Pods_ComAlertDialogTool_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +96,6 @@
 			children = (
 				043A7941A1B1DC99B5619410 /* Pods-ComAlertDialogTool_Example.debug.xcconfig */,
 				84CAB279393E1E918529CC1E /* Pods-ComAlertDialogTool_Example.release.xcconfig */,
-				7CA24C7C73DE4AD0E4D6A982 /* Pods-ComAlertDialogTool_Tests.debug.xcconfig */,
-				F42D023A930E5451807C5E67 /* Pods-ComAlertDialogTool_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,11 +216,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ComAlertDialogTool_Tests" */;
 			buildPhases = (
-				12BAC831EC918766809A065B /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				95314A880EA5165F674AB569 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +240,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ychen3022;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = SSX4Q2WLNG;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,24 +290,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12BAC831EC918766809A065B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ComAlertDialogTool_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		505C3780E96648D99910B11D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,24 +308,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95314A880EA5165F674AB569 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ComAlertDialogTool_Tests/Pods-ComAlertDialogTool_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComAlertDialogTool_Tests/Pods-ComAlertDialogTool_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9DA2923C84B3B4679F43DA75 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,10 +316,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ComAlertDialogTool_Example/Pods-ComAlertDialogTool_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ComAlertDialogTool/ComAlertDialogTool.framework",
+				"${BUILT_PRODUCTS_DIR}/ComTools/ComTools.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComAlertDialogTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComTools.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -504,6 +465,7 @@
 			baseConfigurationReference = 043A7941A1B1DC99B5619410 /* Pods-ComAlertDialogTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SSX4Q2WLNG;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComAlertDialogTool/ComAlertDialogTool-Prefix.pch";
 				INFOPLIST_FILE = "ComAlertDialogTool/ComAlertDialogTool-Info.plist";
@@ -519,6 +481,7 @@
 			baseConfigurationReference = 84CAB279393E1E918529CC1E /* Pods-ComAlertDialogTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SSX4Q2WLNG;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComAlertDialogTool/ComAlertDialogTool-Prefix.pch";
 				INFOPLIST_FILE = "ComAlertDialogTool/ComAlertDialogTool-Info.plist";
@@ -531,7 +494,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CA24C7C73DE4AD0E4D6A982 /* Pods-ComAlertDialogTool_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -555,7 +517,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F42D023A930E5451807C5E67 /* Pods-ComAlertDialogTool_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
