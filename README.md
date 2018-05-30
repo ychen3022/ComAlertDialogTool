@@ -22,7 +22,7 @@ pod 'ComAlertDialogTool'
 
 ## Author
 
-ychen3022, chenyuan@cheok.com
+ychen3022,  3023056944@qq.com
 
 ## License
 
